@@ -28,11 +28,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style scoped>
 .navbar {
-  background: rgb(0, 0, 255);
-  background: linear-gradient(80deg, rgba(0, 0, 255, 1) 0%, rgba(0, 166, 255, 1) 87%);
+  background: rgb(250, 250, 250);
 }
 
 .navbar a {
-  color: #F6F6F6;
+  color: #1d1d1d;
 }
 </style>
