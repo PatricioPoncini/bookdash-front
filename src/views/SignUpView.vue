@@ -32,6 +32,11 @@
 <script lang="ts">
 import axios from "axios";
 import { ENDPOINT } from "../env";
+interface ICreateLibrary {
+    name: string,
+    password: string,
+    location: string
+}
 
 export default {
     data() {
@@ -47,7 +52,8 @@ export default {
     methods: {
         registerNewLibrary(event: any) {
             event.preventDefault();
-            const libraryData: any = {
+
+            const libraryData: ICreateLibrary = { // add interface
                 name: this.libraryName,
                 password: this.libraryPassword,
                 location: this.libraryLocation
