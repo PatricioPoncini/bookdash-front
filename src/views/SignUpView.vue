@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
 h1,
 h5,
 p,
@@ -95,7 +97,12 @@ a {
     font-weight: 400;
 }
 
+button {
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .inputStyle {
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 50%;
     border-top: none;
     border-left: none;

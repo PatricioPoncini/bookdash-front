@@ -8,7 +8,7 @@
         <h1 class="text-center">WELCOME TO BOOKDASH</h1>
         <p class="text-center">Your book stock inventory system</p>
         <div class="d-flex justify-content-center">
-          <a type="button" class="btn btn-dark text-center mx-5">Log In</a>
+          <a type="button" class="btn btn-dark text-center mx-5" href="/login">Log In</a>
           <a type="button" class="btn btn-white text-center mx-5 signUpButtonStyle" href="/signup">Sign Up</a>
         </div>
       </div>
