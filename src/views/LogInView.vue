@@ -62,7 +62,7 @@ export default {
                     window.localStorage.setItem("auth_token", response.data.Tokens.authToken);
                     window.localStorage.setItem("refresh_token", response.data.Tokens.refreshToken);
                     setTimeout(() => {
-                        this.$router.push("/home")
+                        this.$router.push("/dashboard")
                     }, 2000);
                     console.log(response.data);
                 })
